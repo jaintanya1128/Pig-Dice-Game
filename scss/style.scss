@@ -1,0 +1,135 @@
+$main-color: #de7c70;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: $main-color;
+  position: relative;
+}
+
+.main-container {
+  background: white;
+  width: 60vw;
+  display: flex;
+  margin: 80px auto 0;
+}
+
+.pannel-wrap {
+  width: 50%;
+  padding: 100px;
+  text-align: center;
+
+  .player-name {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  .player-score {
+    font-size: 70px;
+    font-weight: 100;
+    color: $main-color;
+  }
+}
+
+.main-score {
+  color: $main-color;
+  padding-top: 30px;
+  font-size: 16px;
+  padding: 5px 10px;
+  width: 100px;
+  text-align: center;
+}
+
+.active {
+  background: #F5F5F5;
+
+  .player-name {
+    font-weight: 300;
+
+    &::after {
+      content: "\2022";
+      font-size: 47px;
+      position: absolute;
+      color: $main-color;
+      top: -7px;
+      right: 10px;
+    }
+  }
+}
+
+.action-wrapper {
+  position: absolute;
+  left: 47%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 0 120px;
+  height: 100%;
+
+  .game-score {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .dice-wrappper {
+    width: 100px;
+    height: 200px;
+    position: relative;
+    margin: 70px 0;
+
+    #dice-1 {
+      position: absolute;
+      top: 0;
+      left: -20px;
+    }
+
+    #dice-2 {
+      position: absolute;
+      top: 100px;
+      right: -20px;
+    }
+  }
+}
+
+img {
+  max-width: 100%;
+  border: 1px solid #ccc;
+}
+
+.current-score-wrap {
+  background: $main-color;
+  width: 150px;
+  margin: 250px auto 0;
+  padding: 20px;
+}
+
+.current-score {
+  color: white;
+  padding-top: 20px;
+  font-size: 38px;
+}
+
+.btn {
+  border: none;
+  display: flex;
+  align-items: center;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 20px 0;
+  cursor: pointer;
+
+  i {
+    color: $main-color;
+    margin-right: 10px;
+  }
+}

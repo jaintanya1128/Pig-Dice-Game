@@ -1,0 +1,15 @@
+1. Each player throws both dice once per turn. You only score if you throw doubles (that is, both dice have the same number of spots on their top face).
+
+2. Players score five points for double ones, twos, fours or fives. A double six scores twenty five points, but if you throw a double three your score goes back to zero.
+3. Add your score as you play. The first player to get fifty points wins the game. (An adult or older child may need to help score, but you can use this game to teach younger children to count by fives.)
+
+
+
+GAME RULES:
+
+- The game has 2 players, playing in rounds
+- In each turn, a player rolls a dice as many times as he wishes. Each result get added to his CURRENT score
+- BUT, if the player rolls a 1 on any dice, all his CURRENT score gets lost. After that, it's the next player's turn
+- BUT, if the player looses his ENTIRE score when he rolls two 6 in a row. After that, it's the next player's turn.
+- The player can choose to 'Hold', which means that his CURRENT score gets added to his GLOBAL score. After that, it's the next player's turn
+- The first player to reach 100 points on GLOBAL score wins the game

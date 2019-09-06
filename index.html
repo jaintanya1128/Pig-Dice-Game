@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title> Pig Dice Game</title>
+  <script src="https://kit.fontawesome.com/737a81e0b4.js"></script>
+  <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+  <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="main-container">
+
+    <div class="pannel-wrap player-0 active" data-player-id="0">
+      <h1 class="player-name">Player 1</h1>
+      <h2 class="player-score">43</h2>
+      <div class="current-score-wrap">
+        <h4>Current</h4>
+        <h3 class="current-score">20</h3>
+      </div>
+    </div>
+    <div class="pannel-wrap player-1" data-player-id="2">
+      <h1 class="player-name">Player 2</h1>
+      <h2 class="player-score">50</h2>
+      <div class="current-score-wrap">
+        <h4>Current</h4>
+        <h3 class="current-score">20</h3>
+      </div>
+    </div>
+    <div class="action-wrapper">
+      <div class="game-score">
+        <h3>Set Game Score</h3>
+        <input type="number" name="main-score" class="main-score" min="0" max="200">
+      </div>
+      <button class="btn btn-new"><i class="fas fa-plus-circle"></i><span> New game </span></button>
+      <div class="dice-wrappper">
+        <img src="images/dice-1.png" alt="Dice" class="dice" id="dice-1">
+        <img src="images/dice-5.png" alt="Dice" class="dice" id="dice-2">
+      </div>
+      <div class="action-btn-wrap">
+        <button class="btn btn-roll"><i class="fas fa-sync-alt"></i><span> Roll dice </span></button>
+        <button class="btn btn-hold"><i class="fas fa-bullseye"></i><span> Collect </span></button>
+      </div>
+    </div>
+
+  </div>
+
+  <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
